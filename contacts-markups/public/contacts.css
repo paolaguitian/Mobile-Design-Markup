@@ -1,0 +1,95 @@
+*{
+box-sizing: border-box;
+}
+
+html,body{
+   width: 100%;
+   margin: 0;
+   font-family: 'Poppins', sans-serif;
+   background-color: #f5f8f9;
+}
+
+
+
+.left-header{
+  height: 10vh;
+}
+
+.left-header img{
+  width: 100%;
+}
+
+#directory{
+  float: right;
+  width: 4%;
+}
+
+.contacts{
+  width: 100%;
+  margin-left: 0.8em;
+}
+
+.letter{
+  width: 100%;
+}
+
+.letter h4{
+  font-size: 15px;
+  color: grey;
+  margin-top: 10px;
+}
+
+.entry{
+  width:100%;
+  height: 3em; /* allow space for picture not to overlap into next entry*/
+  margin-left: 1.3em;  /* allows for space seperating entry and screen*/
+}
+
+.contact-pic{
+  width: 10%;
+  float: left;
+}
+
+.img-circular{
+width: 45px;
+height: 45px;
+display: block;
+border-radius: 100px;
+-webkit-border-radius: 100px;
+-moz-border-radius: 100px;
+}
+
+.name{
+  width: 100%;
+  margin-left: 4.5em; /* allows for space b/w picture and name*/
+}
+
+.name p{
+  font-size: 1em;
+  color: black;
+  margin-bottom: -8px;
+}
+
+.description{
+  width: 100%;
+  margin-left: 4.5em; /* allows for space b/w picture and name*/
+}
+
+
+.description p{
+  font-size: .5em;
+  color: grey;
+}
+
+.footer {
+  position: absolute;
+
+}
+.footer img{
+  height: 7.5vh;
+}
+
+.screen{
+  width: 100%;
+   background-color: #f5f8f9;
+}

@@ -1,0 +1,119 @@
+*{
+box-sizing: border-box;
+}
+
+html,body{
+   width: 100%;
+   margin: 0;
+   background-color: #eff5f6;
+   font-family: 'Poppins', sans-serif;
+
+}
+
+.profile{
+background-color: white;
+margin: 18px;
+}
+
+.cover-photo img{
+  width: 82%;
+  margin-left: 14px;
+}
+
+.img-circular{
+width: 60px;
+height: 60px;
+display: block;
+border-radius: 100px;
+-webkit-border-radius: 100px;
+-moz-border-radius: 100px;
+position: relative;
+bottom: 1.1em;
+margin: 0 auto;
+margin-bottom: -31px;
+right: .6em;
+}
+
+.name{
+  margin-left: 29%;
+  margin-bottom: -10px;
+
+}
+
+.name p{
+  margin: 0;
+  font-size: 20px;
+}
+
+
+.description{
+  margin-left: 40%;
+  font-size: 13px;
+  color: grey;
+}
+
+
+.icon{
+  float: left;
+}
+
+.line p{
+  margin-left: 4em;
+  margin-bottom: -10px;
+  color: grey;
+  font-size: 9px;
+}
+
+.via{
+  width:100%;
+  height: 3em; /* allow space for picture not to overlap into next entry*/
+  margin-left: 1.3em;
+}
+
+.icon img{
+  width:64%;
+
+}
+
+.fb-updates{
+  border-style: solid;
+  border-width: 10px 0 5px 0;
+  border-color: #eff5f6;
+  margin-top: 9px;
+  ;
+}
+
+
+.fb-updates img{
+  width: 73%;
+  margin: 18px 0 0 15px;
+}
+
+
+
+.status{
+  font-size: 15px;
+
+}
+
+
+.status p{
+  margin-bottom: 8px;
+  color: black;
+}
+
+.location{
+  margin-left: 64px;
+  color: grey;
+}
+
+.insta img{
+  width: 100%;
+}
+
+
+.number{
+  margin: 10px;
+  font-size:13px;
+  margin-bottom: 0;
+}
